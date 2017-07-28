@@ -2,7 +2,8 @@ body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 h1 {
@@ -12,7 +13,11 @@ h1 {
 a:link, a:visited {
 	text-decoration: none;
 	/*color: steelblue;*/
-	color: #009de0;
+	color: #017fb5;
+}
+
+a:hover {
+    color: black;
 }
 
 
@@ -23,8 +28,12 @@ a:link, a:visited {
 }
 
 .navbar {
-    margin: 10px 10px 00px 0px;
-    border: transparent;
+    margin: 10px 10px 10px 10px;
+    border-bottom-color: #b9d7d6;
+    border-bottom-width: 1.4px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
     background-color: white;
 }
 
@@ -33,26 +42,34 @@ a:link, a:visited {
 }
 
 .navbar-right li {
-    font-size: 20px;
+    font-size: 20.5px;
     font-family: 'Bellefair', serif;
-    margin-right: 20px;
+    margin-left: 20px;
     margin-top:5px;
 }
 
 /* Navbar text color */
-.navbar-default .navbar-brand{
+.navbar-default .navbar-brand {
     color: black;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: black;
     border-radius: 50px;
+    padding: 9px 12px;
+    margin: 6px 4px;
+    text-align: center;
 }
 
 
 .navbar-right a:hover {
-    background-color: lightgray !important;
+    background-color: #c7dfde !important;
     transition: 0.5s;
+}
+
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*nav {
