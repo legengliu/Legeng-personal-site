@@ -123,6 +123,14 @@ nav ul {
             transform: rotate(-5deg);
         }
 
+strong {
+    font-size:17.5px;
+}
+
+.bullet {
+    line-height: 1.6;
+}
+
 /*.name_container {
         overflow: auto;
         float: left;
