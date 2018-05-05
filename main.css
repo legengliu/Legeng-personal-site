@@ -5,6 +5,7 @@ body {
     margin-left: 15px;
     margin-right: 15px;
     font-weight: 500;
+    line-height: 1.5;
 }
 
 h1 {
@@ -21,6 +22,14 @@ a:hover {
     color: black;
 }
 
+.row {
+    width: 88%;
+    margin: 0 auto;
+}
+
+#about {
+    margin-left: 25px;
+}
 
 .navbar-brand {    
     font-size: 28px;
@@ -69,8 +78,11 @@ a:hover {
 }
 
 .content {
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 100%;
+}
+
+.subheader {
+    font-size: 23px; 
 }
 
 /*nav {
@@ -109,8 +121,8 @@ nav ul {
 }*/
 
 .profile {
-    max-height: 330px;
-    max-width: 330px;
+    max-height: 200px;
+    max-width: 200px;
     margin: 10px;
 }
 
@@ -128,7 +140,7 @@ strong {
 }
 
 .bullet {
-    line-height: 1.6;
+    /*line-height: 1.6;*/
 }
 
 /*.name_container {
